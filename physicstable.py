@@ -1,6 +1,6 @@
 #This was all made with Jupyter Notebook but I just copied the Python code directly from Visual Studio. The Jupyter Notebook language looks very different from Python.
 
-#For calculating centripetal acceleration.
+#Cell for calculating centripetal acceleration.
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -13,7 +13,7 @@ table['centripetal acceleration (m/s^2)'] = (table['velocity (m/s)']) ** 2 / tab
 
 table
 
-#For calculating kinetic energy.
+#Cell for calculating kinetic energy.
 fig = plt.figure()
 ax = fig.add_subplot(1, 2, 1, projection = '3d')
 ax.plot(df['velocity (m/s)'], df['radius (m)'])
