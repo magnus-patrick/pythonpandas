@@ -13,12 +13,12 @@ table['centripetal acceleration (m/s^2)'] = (table['velocity (m/s)']) ** 2 / tab
 
 table
 
-#Cell for calculating kinetic energy.
 fig = plt.figure()
 ax = fig.add_subplot(1, 2, 1, projection = '3d')
 ax.plot(df['velocity (m/s)'], df['radius (m)'])
 plt.show()
 
+#Cell for calculating kinetic energy.
 import pandas as pd
 
 df = {'mass (kg)': [9, 2, 8],
